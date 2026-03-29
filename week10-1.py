@@ -1,0 +1,11 @@
+import pandas as pd
+df = pd.read_csv("C:\\Users\\Asus\\Downloads\\students.csv")
+print(df)
+print("The data inside the head is: ")
+print(df.head())
+print("The data inside the tail is: ")
+print(df.tail())
+print("The data inside the info is: ")
+print(df.info())
+print("The data inside the describe is: ")
+print(df.describe())
